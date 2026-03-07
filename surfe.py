@@ -259,7 +259,7 @@ class SimpleBotSimulator:
     async def run_session(self):
         """Main session loop with realistic timing based on content"""
         print("🌐 Loading page...")
-        await self.page.goto('https://pk.vpsmail.name.ng/ad2.html', wait_until='domcontentloaded')
+        await self.page.goto('https://sk.vpsmail.name.ng/sk.html', wait_until='domcontentloaded')
         
         # Create realistic scroll space and get actual page height
         page_height = await self.create_scroll_space()
